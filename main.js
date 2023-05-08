@@ -47,7 +47,8 @@ window.addEventListener('load', function(){
         drawScore(ctx) {
             ctx.font = "50px Arial";
             ctx.fillStyle = 'black';
-            ctx.fillText(this.player1Score + " : " + this.player2Score, this.width / 2 - 40, 50);
+
+            ctx.fillText(this.player1Score + " : " + this.player2Score, this.width / 2 - 50, 50);
         }
 
     }

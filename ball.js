@@ -92,7 +92,7 @@ export class Ball {
         }
 
     }
-    draw(context, ball){
+    draw(context){
 
         if (this.number === 1)
             context.fillStyle = 'red';

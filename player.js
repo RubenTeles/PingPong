@@ -9,7 +9,7 @@ export class Player {
             this.x = 50;
         else if (this.number === 2)
            this.x = game.width - this.width - 50;
-        this.speed = 7.5;
+        this.speed = 10;
 
     }
     update(input){

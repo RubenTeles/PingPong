@@ -39,7 +39,7 @@ export class Player {
         if (this.number === 1)
             context.fillStyle = 'red';
         else if (this.number === 2)
-            context.fillStyle = 'green';
+            context.fillStyle = 'blue';
 
         context.fillRect(this.x, this.y, this.width, this.height);
     }
